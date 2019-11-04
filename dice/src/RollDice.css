@@ -1,0 +1,22 @@
+.RollDice-button {
+   width: 11em;
+   height: 2em;
+   color: white;
+   font-size: 2em;
+   background-color: rgb(165, 34, 165);
+   border-radius: 15px;
+}
+
+.RollDice-button:active {
+   outline: none;
+   border: none;
+}
+
+.RollDice-button:focus {
+   outline: none;
+}
+
+.RollDice-button:hover {
+   background-color: purple;
+   cursor: pointer;
+}
