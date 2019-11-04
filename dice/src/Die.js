@@ -14,12 +14,12 @@ class Die extends Component {
    
    render() {
 
-      if(this.props.face === 1){return <span className="Die-piece"><FontAwesomeIcon icon={faDiceOne} /></span>}
-      else if(this.props.face === 2){return <span className="Die-piece"><FontAwesomeIcon icon={faDiceTwo} /></span>}
-      else if(this.props.face === 3){return <span className="Die-piece"><FontAwesomeIcon icon={faDiceThree} /></span>}
-      else if(this.props.face === 4){return <span className="Die-piece"><FontAwesomeIcon icon={faDiceFour} /></span>}
-      else if(this.props.face === 5){return <span className="Die-piece"><FontAwesomeIcon icon={faDiceFive} /></span>}
-      else{return <span className="Die-piece"><FontAwesomeIcon icon={faDiceSix} /></span>}
+      if(this.props.face === 1){return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceOne} /></span>}
+      else if(this.props.face === 2){return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceTwo} /></span>}
+      else if(this.props.face === 3){return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceThree} /></span>}
+      else if(this.props.face === 4){return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceFour} /></span>}
+      else if(this.props.face === 5){return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceFive} /></span>}
+      else{return <span className="Die-piece `${this.props.rolling} && 'shaking'`"><FontAwesomeIcon icon={faDiceSix} /></span>}
 
    }
 }
